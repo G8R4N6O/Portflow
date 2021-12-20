@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topo{
+    display: flex;
+}
+
+.portflow{
+    display: flex;
+    margin: 2% 0 2% 6%;
+    width: 8vw;
+    height: 5vh;
+    size: 10%;
+}
+
+label[for="bt-menu"]{
+    display: flex;
+    margin-left: 0;
+    background-color: #000;
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 30vw;
+    height: 5vh;
+}
+#bt-menu{
+    display: none;
+}
+
+label[for="bt-menu"]{
+    display: none;
+}
+
+ul{
+   display: flex;
+   margin: 6vh 0 0 90vh;
+   left: 10%;
+   size: 6%;
+   font-size: 60%;
+}
+
+li{
+    margin-left: 9vh;
+    cursor: pointer;
+    width: 2vw;
+    height: 3vh;
+    font-weight: lighter;
+}
+
+.laranja{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+
+.slogan{
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    width: 80vw;
+    z-index: 1;
+    font-size: 35px;
+    font: larger;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.fale{
+    position: absolute;
+    top: 63%;
+    left: 6%;
+    width: 40vw;
+    font-size: 12px;
+    font-weight: lighter;
+    z-index: 1;
+    color: #ffff;
+}
+
+.mate{
+    display: flex;
+    width: 20vw;
+    margin: 6% 0 0 6%;
+    z-index: 0;
+    position: absolute;
+}
+
+.pão{
+    position: absolute;
+    width: 20vw;
+    margin: 6% 0 0 27%;
+    z-index: 1;
+}
+
+.pote{
+    position: absolute;
+    width: 20vw;
+    margin: 6% 0 0 48%;
+    z-index: 1;
+}
+
+.telas{
+    position: absolute;
+    width: 20vw;
+    margin: 6% 0 0 69%;
+    z-index: 1;
+}
+
+.papeis{
+    display: flex;
+    width: 20vw;
+    margin: 27% 0 0 6%;
+    z-index: 0;
+    position: absolute;
+}
+
+.caneca{
+    position: absolute;
+    width: 20vw;
+    margin: 27% 0 0 27%;
+    z-index: 1;
+}
+
+.pc{
+    position: absolute;
+    width: 20vw;
+    margin: 27% 0 0 48%;
+    z-index: 1;
+}
+
+.barra{
+    position: absolute;
+    width: 20vw;
+    margin: 27% 0 0 69%;
+    z-index: 1;
+}
+
+.celular{
+    display: flex;
+    width: 20vw;
+    margin: 48% 0 0 6%;
+    z-index: 0;
+    position: absolute;
+}
+
+.tablet{
+    position: absolute;
+    width: 20vw;
+    margin: 48% 0 0 27%;
+    z-index: 1;
+}
+
+.cameras{
+    position: absolute;
+    width: 20vw;
+    margin: 48% 0 0 48%;
+    z-index: 1;
+}
+
+.fotos{
+    position: absolute;
+    width: 20vw;
+    margin: 48% 0 0 69%;
+    z-index: 1;
+}
+
+footer{
+    margin-top: 70%;
+    background-color: #F5F5F5;
+    height: 13vh;
+}
+
+.rodape{
+    display: flex;
+    width: 70%;
+    height: 4vh;
+    position: absolute;
+    margin-top: 2%;
+}
+
+.redes{
+    display: flex;
+    width: 70%;
+    height: 4vh;
+    
+}
+
+.face{
+    margin-left: 12vh;
+    cursor: pointer;
+}
+
+.twitter{
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+.insta{
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+.telegram{
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+.whats{
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+.youtube{
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+h3{
+    margin-left: 6%;
+    font-size: 60%;
+    font: large;
+    font-weight: bold;
+}
+
+.vnw{
+    margin-left: 2%;
+    font-size: 40%;
+    font-weight: bold;
+}
+
+.btn{
+    display: none;
+}
+
+@media (max-width: 375px) {
+    
+    ul{
+        display: none;
+    }
+
+    label[for="bt-menu"]{
+        display: block;
+    }
+
+    .portflow{
+        display: flex;
+        margin: 1% 0 3% 8%;
+        width: 20vw;
+        height: 4vh;
+        size: 30%;
+    }
+
+    .laranja{
+        width: 100%;
+        height: 94vh;
+        margin-top: -3%;
+    }
+
+    .slogan{
+        position: absolute;
+        z-index: 1;
+        font-weight: bold;
+        color: #ffff;
+        width: 30vw;
+        top: 70%;
+        left: 6%;
+    }
+
+    .fale{
+        top: 90%;
+        left: 6%;
+    }
+
+    .mate{
+        position: relative;
+        width: 90vw;
+        left: 1%;
+    }
+
+    .pão{
+        position: relative;
+        width: 90vw;
+        right: 20%;
+    }
+
+    .pote{
+        position: relative;
+        width: 90vw;
+        right: 41%;
+    }
+
+    .telas{
+        position: relative;
+        width: 90vw;
+        right: 62%;
+    }
+
+    .papeis{
+        position: relative;
+        width: 90vw;
+        margin-top: 4%;
+    }
+
+    .caneca{
+        position: relative;
+        width: 90vw;
+        right: 21%;
+        margin-top: 5%;
+    }
+
+    .pc{
+        position: relative;
+        width: 90vw;
+        right: 42%;
+        margin-top: 5%;
+    }
+
+    .barra{
+        position: relative;
+        width: 90vw;
+        right: 63%;
+        margin-top: 5%;
+    }
+
+    .celular{
+        position: relative;
+        width: 90vw;
+        margin-top: 5%;
+    }
+
+    .tablet{
+        position: relative;
+        width: 90vw;
+        right: 21%;
+        margin-top: 5%;
+    }
+    
+    .cameras{
+        position: relative;
+        width: 90vw;
+        right: 42%;
+        margin-top: 5%;
+    }
+
+    .fotos{
+        position: relative;
+        width: 90vw;
+        right: 63%;
+        margin-top: 5%;
+    }
+
+    .rodape{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        
+    }
+
+    .redes{
+        position: absolute;
+        margin-top: -80%;
+        z-index: 1;
+        width: 90vw;
+        height: 8vh;
+        background-color: #7FDBD4;
+        left: 9%;
+    }
+
+    .face{
+        position: absolute;
+        right: 90%;
+        margin-top: 3%;
+    }
+
+    .twitter{
+        position: absolute;
+        right: 72%;
+        margin-top: 3%;
+    }
+
+    .insta{
+        position: absolute;
+        right: 57%;
+        margin-top: 3%;
+    }
+
+    .telegram{
+        position: absolute;
+        right: 40%;
+        margin-top: 3%;
+    }
+
+    .whats{
+        position: absolute;
+        right: 25%;
+        margin-top: 3%;
+    }
+
+    .youtube{
+        position: absolute;
+        right: 5%;
+        margin-top: 3%;
+    }
+
+    h3{
+        margin-top: -50%;
+        left: 3%;
+        position: absolute;
+    }
+
+    .vnw{
+        margin-top: -45%;
+        left: 7%;
+        position: absolute;
+        width: 34%;
+    }
+
+    .btn{
+        display: flex;
+        display: block;
+        position: absolute;
+        padding: 5%;
+        width: 20vw;
+        left: 99%;
+        margin-top: -45%;
+        color: #ffff;
+        background-color: #3d3c3c;
+        font-weight: bolder;
+    }
+
+}
